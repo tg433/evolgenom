@@ -45,7 +45,7 @@ The software can calculate the loglikelihood value without any parameters optimi
 
 b) synthetic sample generation
 
-Running the code without arguments "julia estimate_parameters.jl" displays the possible arguments.
+Running the code without arguments "julia generate_synthetic_sample.jl" displays the possible arguments.
 There are 4 mandatory parameters: the tree file, the mutation rate - for the whole genome, not per site - the population size and the type of sequencing depth distribution, either an empirical one read from a file, or a uniform one, with a supplied parameter value.
 The random number generator of the sequencing errors is independent from all the other random numbers, so it is possible to generate different data sets with different error rates but with the same underlying true sampled mutations.
 
